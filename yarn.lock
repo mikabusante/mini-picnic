@@ -11656,6 +11656,11 @@ typeface-biorhyme-expanded@^0.0.71:
   resolved "https://registry.yarnpkg.com/typeface-biorhyme-expanded/-/typeface-biorhyme-expanded-0.0.71.tgz#584c503b2264de3d972401168c26f8f66ccebbfb"
   integrity sha512-GMcm6EWWfCyRMR/Ppd9hTsDBVL/cEOjv2BplnkpQzZy2fs6Nx+vg7q2rIhy98y+pFuow6UI7hf0oDIx7F05TVQ==
 
+typeface-karla@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-karla/-/typeface-karla-0.0.72.tgz#b0eec7f2f13e638d274c0bac6bd0c82379c958e9"
+  integrity sha512-PKqhkf7MxnRMCdWfLXYsY2eGY3R9aGO630P5CCXnndvmfTlEGgXtb6J6kx1UDcCgzNh115Cd0IP5AnFU8cCpKw==
+
 ua-parser-js@^0.7.18:
   version "0.7.20"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.20.tgz#7527178b82f6a62a0f243d1f94fd30e3e3c21098"

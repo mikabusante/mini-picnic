@@ -4,6 +4,10 @@ import SavateItalique from './savate/savate-italique-webfont.woff2'
 console.log('Savate:', Savate)
 
 const Global = createGlobalStyle`
+  :root {
+    --black: #212121;
+  }
+
   @font-face {
     font-family: 'Savate';
     src: url(${Savate});
@@ -14,8 +18,19 @@ const Global = createGlobalStyle`
     src: url(${SavateItalique});
   }
 
-  body {
+  *, *:before, *:after {
+    box-sizing: border-box;
+    margin:0;
+  }
+
+  html {
     background: #FBFBFB;
+    font-size: 62.5%;
+  }
+
+  body {
+    font-size: 1.4rem;
+    color: var(--black)
   }
 
   
